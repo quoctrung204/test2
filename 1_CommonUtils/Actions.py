@@ -7,7 +7,7 @@
 ## --------------------------------------------------------------------
 ## Name: 
 ## --------------------------------------------------------------------
-def actionLeftClick(objectOrObjectName, x=None, y=None):
+def actionLeftClick(objectOrObjectName, x=None, y=None): 
     try:
         if x == None and y == None:
             mouseClick(objectOrObjectName)
